@@ -29,7 +29,7 @@
                         <li class="nav-item"><a class="active  nav-link" href="#"> Deals</a></li>
                         <li class="nav-item"><a class="active  nav-link" href="#"> Success </a></li>
                         <li class="nav-item"><a class="active  nav-link" href="#"> About </a></li>
-                        <li class="nav-item"><a class="active  nav-link" href="#"> Register </a></li>
+                        <li class="nav-item"><a class="active  nav-link" href="#Register"> Register </a></li>
                     </ul>
                 </div>
             </nav>
@@ -181,7 +181,7 @@
             <div class="img-fluid ">
                 <img src="images/working.png" alt="working ">
             </div>
-            <div class="ps-5 pt-5  bonus-color">
+            <div class="ps-5 pt-5 bonus-color">
                 <h1 class="fw-bold pb-2">Explore the E-learning Institute </h1>
                 <p>The European E-learning Institute (EUEI) is committed to providing high-quality learning experiences
                     and innovative
@@ -206,6 +206,47 @@
                 <button class=" btn bg-primary fw-bold text-white"> Read More </button>
             </div>
         </div>
+        <!-- modal form action -->
+        <div class=" d-flex justify-content-around align-items-center rounded-3 bg-primary text-white my-5 py-5 ">
+            <div>
+                <h1> Ready to join?</h1>
+                <p>High quality example sentences with <br>“I'm ready to join” in context from reliable sources</p>
+            </div>
+            <div class="align-middle">
+                <button type="button" class="btn text-primary bg-light" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" data-bs-whatever=" btn " id="Register">Register Now </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-primary" id="exampleModalLabel">
+                                    Join Now</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">email</label>
+                                        <input type="email" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="password" name="your password" id=" recipient-password">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Log in</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
